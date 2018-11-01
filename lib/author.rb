@@ -6,6 +6,6 @@ class Author
     @post = []
   end
 
-  
+  def add_post
 
 end
