@@ -13,8 +13,9 @@ class Song
   end
 
   def artist_name
-    artist_name = self.artist.name
     
+    artist_name = self.artist.name
+
     artist_name.empty? ? nil : artist_name
       # binding.pry
   end
