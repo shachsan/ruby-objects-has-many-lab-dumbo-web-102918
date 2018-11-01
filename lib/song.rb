@@ -16,7 +16,7 @@ class Song
     artist_name = self.artist.name
 
     artist_name.empty? ? nil : artist_name
-      binding.pry
+      # binding.pry
   end
 
 end
