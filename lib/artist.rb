@@ -28,5 +28,5 @@ class Artist
     Song.all.count
 
   end
-  0
+  
 end
