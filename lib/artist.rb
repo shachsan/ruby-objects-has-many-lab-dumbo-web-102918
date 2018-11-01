@@ -26,5 +26,5 @@ class Artist
     Song.all.count
     binding.pry
   end
-  
+  0
 end
