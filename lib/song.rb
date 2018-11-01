@@ -13,7 +13,7 @@ class Song
 
   def artist_name
     artist_name = self.artist.name
-    artist_name.empty?
+    artist_name.empty??
 
   end
 
