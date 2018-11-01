@@ -14,6 +14,7 @@ class Song
 
   def artist_name
     if self.artist
+      
     artist_name = self.artist.name
 
     artist_name.empty? ? nil : artist_name
