@@ -13,7 +13,7 @@ class Song
 
   def artist_name
     artist_name = self.artist.name
-    if artist_name.em
+    artist_name.empty?
 
   end
 
