@@ -7,5 +7,5 @@ class Post
   end
 
   def self.all
-    
+  end
 end
