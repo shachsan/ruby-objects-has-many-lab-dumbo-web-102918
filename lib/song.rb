@@ -13,13 +13,13 @@ class Song
   end
 
   def artist_name
-    if self.artist
+    if self.artist.
       return nil
     else
     artist_name = self.artist.name
-  end 
+  end
 
-    artist_name.empty? ? nil : artist_name
+    # artist_name.empty? ? nil : artist_name
       # binding.pry
   end
 
